@@ -8,7 +8,7 @@
 }
 body
 {
-    background: lightblue;
+    background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -153,22 +153,24 @@ body
     color: #03a9f4;
     margin: 10px 0;
 }
-.education h5
+.education p
+{
+    font-size: medium;
+}
+.education .period
 {
     color: #03a9f4;
     font-weight: 500;
 }
-.education h4:nth-child(2)
+.education .degree
 {
     color: #fff;
-    font-weight: 700;
-    font-size: medium;
+    font-weight: 600;
 }
-.education h4
+.education .institute
 {
     color: #fff;
     font-weight: 300;
-    font-size: x-small;
 }
 
 .techSkills
