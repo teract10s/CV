@@ -8,7 +8,7 @@
 }
 body
 {
-    background: #fff;
+    background: lightblue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,7 +112,7 @@ body
 }
 .contactInfo ul li span a
 {
-    color: #2979ff;
+    color: #fff;
 }
 
 .location
@@ -159,7 +159,7 @@ body
 }
 .education .period
 {
-    color: #03a9f4;
+    color: #fff;
     font-weight: 500;
 }
 .education .degree
@@ -200,7 +200,8 @@ body
 
 .summary
 {
-    margin-bottom: 50px;
+    width: 100%;
+    margin-bottom: 40px;
 }
 .summary:last-child
 {
